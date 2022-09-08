@@ -2,7 +2,7 @@ use termion::raw::IntoRawMode;
 use std::io::{ self,stdin,stdout, Read };
 fn main() {
    
-    let stdout = stdout().into_raw_mode().unwrap();
+    let _stdout = stdout().into_raw_mode().unwrap();
 
   //  for b in stdin().bytes(){
     //    let c = b.unwrap() as char;
